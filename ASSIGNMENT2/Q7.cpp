@@ -1,0 +1,19 @@
+// 07_factorial.cpp
+// Factorial of a Number
+#include <iostream>
+using namespace std;
+int main() {
+int n;
+cout << "Enter a non-negative integer: ";
+cin >> n;
+if (n < 0) {
+cout << "Factorial is not defined for negative numbers." << endl;
+return 1;
+}
+long long factorial = 1;
+for (int i = 1; i <= n; i++) {
+factorial *= i;
+}
+cout << "Factorial of " << n << " (" << n << "!) = " << factorial << endl;
+return 0;
+}
