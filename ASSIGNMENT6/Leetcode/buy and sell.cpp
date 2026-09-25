@@ -7,9 +7,11 @@ int main(){
     int maxProfit = 0;
     int bestbuy = arr[0];
     for(int i  =1 ; i<n ;i++){
-        int cost = arr[i] - bestbuy;
-        maxProfit = max(maxProfit,cost);
-        bestbuy = min(bestbuy,arr[i]);
+        if(arr[i]>bestbuy){
+              maxProfit = max(maxProfit , arr[i]-bestbuy);
+            }
+            bestbuy = min(bestbuy , arr[i]);
+   
 
 
     }
