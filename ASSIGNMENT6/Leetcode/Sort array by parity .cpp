@@ -10,7 +10,7 @@ int main(){
             even++;
         }  
     }
-    for(int i = 0; i < n; i++) {  // to print the finall  array
+    for(int i = 0; i < n; i++) {  // to print the finall  array loop ke bahar swap ke bad print karna h
         cout << arr[i] << " ";
     }
 
