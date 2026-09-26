@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    string s = " how are you";
+    string s = " what are you";
     int  start = 0;
     for(int i =0;i<s.size();i++){
         if(i==s.size()|| s[i]==' '){
@@ -16,6 +16,6 @@ int main(){
 
         }
 
-    }cout<<s<<endl;
+    }cout<< s <<endl;
 
 }
